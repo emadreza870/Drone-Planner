@@ -1,0 +1,9 @@
+pydantic>=2.0
+shapely>=2.0
+pyproj>=3.6
+numpy>=1.26
+folium>=0.15
+streamlit>=1.30
+streamlit-folium>=0.23
+pytest>=7.0
+pandas>=2.0

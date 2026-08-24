@@ -1,0 +1,24 @@
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drone-planner"
+version = "0.1.0"
+description = "Multi-Drone Mission Planning System - Phase 1"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic>=2.0",
+    "shapely>=2.0",
+    "pyproj>=3.6",
+    "numpy>=1.26",
+    "folium>=0.15",
+    "streamlit>=1.30",
+    "streamlit-folium>=0.23",
+    "pandas>=2.0",
+]
